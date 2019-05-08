@@ -1,0 +1,172 @@
+.HorizontalList {
+  margin-top: 1rem;
+  padding-bottom: 2rem;
+  height: 100%;
+  overflow: hidden;
+  color: #ffffff;
+  position: relative;
+  @media screen and (max-width: 360px) {
+    display: none;
+  }
+  .ScrollBar {
+    position: absolute;
+    background: #bebeba;
+    cursor: pointer;
+    left: 20px;
+    right: 20px;
+    bottom: 0;
+    z-index: 50;
+    height: 10px;
+    padding: 5px 1px;
+    .scrollbar-scrollable {
+      height: 10px;
+      width: 100%;
+    }
+    .swiper-scrollbar-left {
+      background-repeat: no-repeat;
+      width: 20px;
+      height: 20px;
+      content: "";
+      position: absolute;
+      left: -20px;
+      bottom: 0;
+      background-color: #bebeba;
+      background-image: url(../../assets/Scrollbar-arrow.svg);
+      background-position: center center;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+    .swiper-scrollbar-right {
+      width: 20px;
+      height: 20px;
+      background-repeat: no-repeat;
+      content: "";
+      position: absolute;
+      right: -20px;
+      bottom: 0;
+      background-color: #bebeba;
+      background-image: url(../../assets/Scrollbar-arrow-right.svg);
+      background-position: center center;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+  }
+}
+.oneMovie {
+  display: flex;
+  flex-flow: column;
+  margin-top: 1rem;
+  color: #ffffff;
+  @media screen and (min-width: 360px) {
+    display: none;
+  }
+  .bottomRow {
+    height: 100%;
+  }
+  .movieItem::after {
+    height: 0;
+    border: none;
+  }
+  .pages {
+    margin-top: 1rem;
+    font-size: 1.6em;
+  }
+}
+.movieItem {
+  // max-width: 500px;
+  height: 100%;
+  // min-width: 500px;
+  &:after {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    border-right: 1px solid white;
+    content: "";
+  }
+  &:last-child {
+    margin: 0;
+  }
+  &:last-child:after {
+    height: 0;
+    border: none;
+  }
+}
+.topRow {
+  @extend .row;
+  height: 100px;
+}
+.bottomRow {
+  @extend .row;
+
+  height: 4rem;
+  text-align: left;
+}
+.poster {
+  border: 2px solid #bababa;
+  width: 140px;
+}
+.title {
+  font-size: 1.3em;
+  font-weight: bold;
+  align-self: start;
+  text-align: left;
+}
+.rating {
+  margin: 0 1rem;
+  font-size: 1.5em;
+}
+.genres {
+  // margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.8em;
+  color: rgba(174, 199, 213, 255);
+  text-transform: uppercase;
+  text-align: left;
+}
+.overview {
+  margin: 0 1rem;
+  font-size: 1em;
+  color: rgba(174, 199, 213, 255);
+  align-self: flex-start;
+}
+button {
+  color: rgba(174, 199, 213, 255);
+  background: #868684;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 0.2rem 0;
+  font-size: 1em;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  width: 6rem;
+  img {
+    margin: 0 0.5rem;
+    height: 0.6rem;
+  }
+}
+.starIcon {
+  height: 2rem;
+}
+
+.ml-1 {
+  margin-left: 1rem;
+}
+.mt-1 {
+  margin-top: 1rem;
+}
+.self-center {
+  align-self: center;
+}
+.column {
+  display: flex;
+  flex-flow: column;
+}
+.row {
+  display: flex;
+  flex-flow: row;
+}
+.swiper-container-horizontal > .swiper-scrollbar {
+  display: block !important;
+}

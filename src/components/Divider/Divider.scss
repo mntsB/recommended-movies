@@ -1,0 +1,9 @@
+.divider {
+  margin: 0;
+  border-top: 1px solid #797977;
+  .vertical {
+    border-top: none;
+    border-right: 1px solid #797977;
+    height: 100%;
+  }
+}

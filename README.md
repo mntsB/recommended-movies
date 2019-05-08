@@ -1,44 +1,48 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Unsplash image search using react
 
-## Available Scripts
+    Supports browsers above IE10.
 
-In the project directory, you can run:
+##### What's Being Used?
 
-### `npm start`
+- [React](http://facebook.github.io/react/) for managing the presentation logic of your application.
+- [react-id-swiper](https://github.com/kidjp85/react-id-swipe) modern mobile touch slider.
+- [typescript](https://www.typescriptlang.org/) for type checking and syntax.
+- [WebPack](http://webpack.github.io/) for bundling code down to a single file and enabling hot module reloading.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Getting Started
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+In order to get started developing, you'll need to do a few things first.
 
-### `npm test`
+1. Install all of the `node_modules` required for the package. Depending on your computer's configuration.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+git clone https://github.com/mntsB/recommended-movies.git
+```
 
-### `npm run build`
+```
+cd recommended-movies
+```
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+npm install
+```
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+or
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+yarn
+```
 
-### `npm run eject`
+2. Lastly, run the start command to get the project off the ground. This command will not only build your JS files using the Webpack `dev-server`, but it will also auto-compile your Sass files on every `.scss` file save.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
+npm start
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+or
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+yarn start
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. Head over to [http://localhost:3000](http://localhost:3000) to see the app live!

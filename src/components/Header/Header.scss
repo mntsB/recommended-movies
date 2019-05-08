@@ -1,0 +1,17 @@
+.header {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  img {
+    margin: 0 1rem;
+  }
+  span {
+    //   font-family: AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 2em;
+    color: rgba(255, 255, 255, 255);
+    text-align: center;
+  }
+}
