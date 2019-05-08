@@ -1,8 +1,8 @@
 # Unsplash image search using react
 
-    Supports browsers above IE10.
+Supports browsers above IE10.
 
-    [DEMO](https://mntsb.github.io/recommended-movies/)
+[DEMO](https://mntsb.github.io/recommended-movies/)
 
 ##### What's Being Used?
 
