@@ -2,6 +2,8 @@
 
     Supports browsers above IE10.
 
+    [DEMO](https://mntsb.github.io/recommended-movies/)
+
 ##### What's Being Used?
 
 - [React](http://facebook.github.io/react/) for managing the presentation logic of your application.
