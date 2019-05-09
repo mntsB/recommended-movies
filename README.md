@@ -1,4 +1,4 @@
-# Unsplash image search using react
+# Recommended movies using react
 
 Supports browsers above IE10.
 
