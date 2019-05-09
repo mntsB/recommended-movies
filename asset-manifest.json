@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/recommended-movies/static/css/main.fdce8ac7.chunk.css",
-    "main.js": "/recommended-movies/static/js/main.6cdc50b6.chunk.js",
-    "main.js.map": "/recommended-movies/static/js/main.6cdc50b6.chunk.js.map",
+    "main.js": "/recommended-movies/static/js/main.2df3090f.chunk.js",
+    "main.js.map": "/recommended-movies/static/js/main.2df3090f.chunk.js.map",
     "runtime~main.js": "/recommended-movies/static/js/runtime~main.d0e8a4ff.js",
     "runtime~main.js.map": "/recommended-movies/static/js/runtime~main.d0e8a4ff.js.map",
     "static/js/2.3b7a6730.chunk.js": "/recommended-movies/static/js/2.3b7a6730.chunk.js",
     "static/js/2.3b7a6730.chunk.js.map": "/recommended-movies/static/js/2.3b7a6730.chunk.js.map",
     "index.html": "/recommended-movies/index.html",
-    "precache-manifest.41435d4a2e75288d043a05fb4c6fc611.js": "/recommended-movies/precache-manifest.41435d4a2e75288d043a05fb4c6fc611.js",
+    "precache-manifest.3be074d29fb94777bcbfa25c051a4bce.js": "/recommended-movies/precache-manifest.3be074d29fb94777bcbfa25c051a4bce.js",
     "service-worker.js": "/recommended-movies/service-worker.js",
     "static/css/main.fdce8ac7.chunk.css.map": "/recommended-movies/static/css/main.fdce8ac7.chunk.css.map",
     "static/media/A-bugs-life.png": "/recommended-movies/static/media/A-bugs-life.86548632.png",
