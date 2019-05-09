@@ -17,6 +17,14 @@ const HorizontalList: React.FC<IProps> = ({ movies }) => {
     if (swiper) {
       swiper.el.addEventListener("mouseenter", () => swiper.autoplay.stop());
       swiper.el.addEventListener("mouseleave", () => swiper.autoplay.start());
+      return () => {
+        swiper.el.removeEventListener("mouseenter", () =>
+          swiper.autoplay.stop()
+        );
+        swiper.el.removeEventListener("mouseleave", () =>
+          swiper.autoplay.start()
+        );
+      };
     }
   });
 
